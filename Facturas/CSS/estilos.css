@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+body {
+	margin=0;
+	font-family: sans-serif;
+}
+header{
+	width:100%;
+	background: #4E94AB;
+}
+
+header label{
+	display: block;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	border-right: 1px solid #fff;
+}
+header label:over{
+	cursor: pointer;
+	background: rgba(0,0,0,3);
+}
+.menu ul{
+	margin:0;
+	list-style:none;
+	padding:0;
+	display:flex;
+	justify-content:flex-end;
+}
+.menu li{
+	border-right:1px solid #fff;
+}
+.menu li:hover{
+	background: rgba(0,0,0,0.3);
+}
+.menu li a{
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	text-decoration:none;
+	
+}
+

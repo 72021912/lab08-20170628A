@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+table{
+	border:solid 5px #2E9AFE;
+	padding: 50px 30px;
+	background:#E6E6E6;
+	margin:15px auto;
+	border-radius: 8px;
+}
+.boton_crear{
+	
+	
+}
+label{
+	display:block;
+	background:#0080FF;
+	padding:10px;
+	padding-left:15px;
+	border-radius:8px;
+	margin:10px 0;
+	text-align:left;
+	font-size:18px;
+}
+#titulo{
+	display:block;
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+th{
+	text-align:center;	 
+}
+input[type=text]{
+	width:95%;
+	border:2px;
+	border-radius:20px;
+	margin: 4px 0;
+	outline:none;
+	padding:8px;
+	box-sizing:border-box;
+	transition:3s;
+	text-align:center;
+	border-color:dodgerBlue;
+	box-shadow:10px dodgerBlue;
+	font-size:22px;
+}
+.boton_crear{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #DF0101;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: 2px solid #DF0101;
+    text-align:center;
+	margin:20px;
+  }
+ .boton_crear:hover{
+    color: #FFFFFF;
+    background-color: #FA5858;
+  }
+  .boton_index{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2E2EFE;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: 2px solid #2E2EFE;
+    text-align:center;
+	margin:20px;
+  }
+ .boton_index:hover{
+    color: #FFFFFF;
+    background-color:#5858FA;
+  }
